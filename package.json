@@ -6,7 +6,7 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "watch": "nodemon . -e js --ignore src",
-    "dev": "next ./lib",
+    "dev": "yarn build && next ./lib",
     "start": "next start ./lib",
     "lint": "tslint 'src/**/*.ts{,x}' --format verbose",
     "build": "rm -rf ./lib && tsc",
