@@ -4,6 +4,9 @@ Sample repo to reproduce build issue with Next.js when referencing Slate.js.
 - https://github.com/zeit/next.js/
 - https://github.com/ianstormtaylor/slate
 
+#### Related issues:
+- https://github.com/zeit/next.js/issues/1877
+- https://github.com/zilverline/react-tap-event-plugin/issues/99
 
 ## Running
 Running the next.js project locally in dev mode works:
