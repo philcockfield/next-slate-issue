@@ -9,7 +9,7 @@
     "dev": "yarn build && next ./lib",
     "start": "next start ./lib",
     "lint": "tslint 'src/**/*.ts{,x}' --format verbose",
-    "build": "rm -rf ./lib && tsc",
+    "build": "rm -rf ./lib && ./node_modules/typescript/bin/tsc",
     "build:next": "yarn build && next build ./lib"
   },
   "dependencies": {
